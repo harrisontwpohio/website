@@ -1,0 +1,35 @@
+/* Ohio.gov-inspired visual treatment. Township identity remains independent.
+   Edit this file to adjust the theme; styles.css provides the base layout. */
+:root{--navy:#153e63;--ink:#252b31;--muted:#515b65;--cream:#f5f6f7;--gold:#b3293d;--line:#d9dfe5;--green:#153e63}
+body{font-family:"Segoe UI",Arial,Helvetica,sans-serif;line-height:1.6}
+.wrap{width:min(1200px,calc(100% - 64px))}
+.utility{background:#f5f5f5;color:#30363b;border-bottom:1px solid #ddd;font-size:12px;letter-spacing:0}
+.utility .wrap{padding-block:7px}.utility a{color:var(--navy)}
+.header{min-height:118px;padding-block:24px;gap:25px}
+.brand{font-family:"Segoe UI",Arial,sans-serif;font-size:25px;font-weight:750;color:var(--navy);letter-spacing:-.7px}
+.brand small{font-size:10px;letter-spacing:1.9px;color:#535b63}
+.brand-mark{position:relative;border:2px solid #b3293d;outline:0;border-radius:8px 8px 17px 17px;width:53px;height:58px;font:700 34px Georgia,serif;color:var(--navy)}
+.brand-mark span{font-size:9px;letter-spacing:1px;color:var(--navy)}
+nav{gap:23px;font-size:14px;color:#292d32}nav a{padding:12px 0}nav a:hover{color:#a82438;text-decoration:none;box-shadow:inset 0 -3px #b3293d}
+.nav-contact{border:1px solid #ccd3d9;border-radius:24px;padding:9px 17px;color:var(--navy)}
+.info-banner{background:#e7edf3;color:#153e63}.info-banner .wrap{display:flex;align-items:center;gap:18px;max-width:960px;padding-block:13px}.info-banner p{margin:0;font-size:15px}.info-symbol{flex-shrink:0;background:var(--navy);color:white;border-radius:50%;width:24px;height:24px;text-align:center;line-height:24px;font:bold 17px Georgia,serif}
+h1,h2,h3,.service h3,.meeting-panel h3,.news-item h3,.phone{font-family:"Segoe UI",Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:-.6px}
+h1{font-size:clamp(40px,4.5vw,62px);line-height:1.1}h2{font-size:36px;line-height:1.2}h3{font-size:22px}
+.eyebrow{font-size:11px;letter-spacing:1.4px;color:var(--navy);margin-bottom:12px}
+.hero{position:relative;isolation:isolate;background:#284b61;min-height:460px}
+.hero-grid{display:block;position:relative;padding-block:65px;min-height:460px}
+.hero-copy{position:relative;z-index:2;max-width:650px}.hero .eyebrow{color:#fff}.hero-intro{color:white;max-width:510px;font-size:19px;margin-block:22px 27px}
+.landscape{position:absolute;z-index:-1;inset:0 -170px 0 32%;border:0;padding:0;background:transparent;opacity:.7;max-width:none;width:auto;overflow:hidden}
+.landscape svg{height:100%;width:100%;object-fit:cover;transform:scale(1.32);transform-origin:center}.landscape-caption{display:none}
+.hero::after{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,rgba(9,28,43,.95),rgba(9,28,43,.62) 47%,rgba(9,28,43,.08))}
+.button{background:#b3293d;color:#fff;border-radius:3px;padding:13px 23px;font-size:15px;gap:24px}.button:hover{background:#922033}.hero-link{color:white;font-size:14px}
+.office-strip{background:#fff;border-bottom:1px solid var(--line)}.office-strip .wrap{padding-block:21px}.office-strip a{color:var(--navy)}
+.section{padding-block:60px}.section-heading{display:block;margin-bottom:30px}.section-heading>p{margin-top:10px;font-size:17px}.section-heading h2::after,#contact>h2::after{content:"";display:block;width:48px;height:4px;background:#b3293d;margin-top:17px}
+.service-grid{gap:24px;border:0}.service{background:#fff;border:1px solid var(--line);border-top:4px solid #153e63;padding:27px;box-shadow:0 2px 5px #12304b0b}.service+.service{border-left:1px solid var(--line)}.service:hover{background:#f2f6fa;border-top-color:#b3293d}.service h3{color:var(--navy);font-size:25px}.service-number{color:#59636c;font-size:11px;letter-spacing:1px;margin-bottom:18px}.service p{font-size:15px}.text-link{color:var(--navy);font-size:14px}.text-link:hover{color:#a82438}
+#news{border-top:1px solid var(--line)}.news-grid{gap:44px}.news-item:first-child{border-top:4px solid #b3293d}.news-item h3{font-size:25px;line-height:1.3;color:var(--navy)}.facebook-panel{background:#f4f6f8;border-top:4px solid var(--navy)}.facebook-icon{background:var(--navy)}.facebook-heading h3{color:var(--navy)}
+.meeting-section{background:#edf2f6;border:0}.meeting-grid{gap:70px}.meeting-panel{border:0;border-top:4px solid #b3293d;box-shadow:0 2px 8px #163b5e0d}.meeting-panel h3{color:var(--navy);font-size:25px}.outline{background:var(--navy);color:#fff;border:1px solid var(--navy);font-size:13px}.outline:hover{background:#0c2b47}.resource-row strong{color:var(--navy)}
+.detail-grid h2{font-size:30px;color:var(--navy)}.detail-grid{gap:70px}.community{background:#f3f5f7;border-top:1px solid var(--line)}.community h2{color:var(--navy)}.heritage{border:0;border-left:5px solid #b3293d;background:#fff;padding:35px 20px}.heritage strong{font-family:"Segoe UI",Arial,sans-serif;font-size:92px;font-weight:700;color:var(--navy)}
+.contact-grid h3,.phone{color:var(--navy)}.phone{font-size:26px}footer{background:#143a5b;border-top:6px solid #b3293d}footer .brand,footer .brand small,footer .brand-mark,footer .brand-mark span{color:white}.footer-bottom{border-color:#58728a}.footer-top .brand-mark{border-color:#fff}:focus-visible{outline-color:#b3293d}
+@media(min-width:761px) and (max-width:1150px){.header{flex-wrap:wrap;gap:10px}nav{width:100%;justify-content:space-between}}
+@media(max-width:760px){.wrap{width:calc(100% - 36px)}.header{min-height:95px;padding-block:18px;gap:20px}.brand{font-size:21px}.brand-mark{width:45px;height:52px;font-size:29px}.utility .wrap{font-size:11px}.info-banner .wrap{gap:12px;padding-block:15px}.info-banner p{font-size:13px}.menu-toggle{border-radius:3px;color:var(--navy)}nav{gap:0;font-size:15px}nav a{padding:13px 0}.nav-contact{border-radius:3px}.hero,.hero-grid{min-height:435px}.hero-grid{padding-block:45px}.hero-copy{max-width:100%}h1{font-size:43px}.hero-intro{font-size:17px;max-width:390px}.landscape{inset:0 -170px 0 15%;opacity:.35}.landscape svg{max-height:none}.hero::after{background:linear-gradient(90deg,rgba(9,28,43,.92),rgba(9,28,43,.35))}.section{padding-block:42px}h2{font-size:31px}.section-heading>p{font-size:15px}.service-grid{gap:17px}.service+.service{border-top:4px solid var(--navy)}.service h3{font-size:23px}.meeting-grid,.detail-grid{gap:35px}.meeting-panel h3{font-size:23px}.heritage strong{font-size:74px}.footer-top .brand{font-size:18px}}
+@media print{.info-banner{display:none}.hero::after{display:none}.hero,.hero-grid{min-height:0}.hero .eyebrow,.hero-intro{color:black}.button{background:white;color:black}.hero-link{color:black}.service{box-shadow:none}}
